@@ -2,10 +2,10 @@ plugins {
     id 'java'
 }
 
-apply plugin: 'jacoco'
-
 group 'com.felipesantos'
 version '1.0-SNAPSHOT'
+
+apply plugin: 'jacoco'
 
 sourceCompatibility = 1.8
 
