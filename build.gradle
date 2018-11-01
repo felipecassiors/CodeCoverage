@@ -1,11 +1,8 @@
-plugins {
-    id 'java'
-}
-
 group 'com.felipesantos'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'jacoco'
+apply plugin: 'java'
 
 sourceCompatibility = 1.8
 
